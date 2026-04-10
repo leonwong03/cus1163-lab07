@@ -20,3 +20,13 @@ That means a process was removed from the queue 6 times so there were 6 context 
 
 5. Why does Round Robin prevent the convoy effect that occurs in FCFS scheduling?
 Round Robin prevents the convoy effect because one long process cannot keep the CPU for too long. In first come first serve, if a VERY large job gets the CPU first all the shorter jobs get stuck waiting behind it, which creates a convoy of delayed processes. In Round Robin, every process only gets to CPU for one time quantum before being moved aside so that smaller jobs still get chances to run quickly. This keeps the system more balanced and responsive. 
+
+
+Comfortability score [0 to 5]: Rate how comfortable you felt with the assignment
+5
+
+Completeness score [0 to 5]: Rate how complete you feel your submission is
+5
+
+A win: Share something that went well for you
+A win for me is that i was able to successfully implement the Round Robin scheduling loop and seeing the process rotate through the ready queue exactly how i expected. Felt really good seeing the completion, turnaround, and waiting times calculate everything correctly for both time quantum values. 
